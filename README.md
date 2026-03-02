@@ -17,6 +17,7 @@ Built with Python and Tkinter — zero third-party dependencies, single-file, ru
 - English / 中文 language toggle, switches instantly without restart
 - Responsive layout from 900×600 to full screen
 
+![guide](guide.gif)
 
 ## Quick Start
 
