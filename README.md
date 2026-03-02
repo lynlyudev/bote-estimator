@@ -4,7 +4,6 @@ A desktop GUI application for system design resource estimation. Helps engineers
 
 Built with Python and Tkinter — zero third-party dependencies, single-file, runs anywhere Python 3.10+ is installed.
 
----
 
 ## Features
 
@@ -18,7 +17,6 @@ Built with Python and Tkinter — zero third-party dependencies, single-file, ru
 - English / 中文 language toggle, switches instantly without restart
 - Responsive layout from 900×600 to full screen
 
----
 
 ## Quick Start
 
@@ -46,7 +44,6 @@ On macOS, if it is not included, install it using Homebrew:
 brew install python-tk
 ```
 
----
 
 ## Example Calculation
 
@@ -68,7 +65,6 @@ brew install python-tk
 | Monthly Storage | 750 GB |
 | Total Storage | 90 TB |
 
----
 
 ## Precision Mode
 
@@ -77,7 +73,6 @@ brew install python-tk
 | Off (default) | 100,000 | 1000 (KB, MB, GB...) | Rough estimate |
 | On | 86,400 | 1024 (KiB, MiB, GiB...) | Precise calculation |
 
----
 
 ## Reference Tables (built-in)
 
@@ -91,7 +86,6 @@ brew install python-tk
 
 **Datastore Latency:** Disk 3 ms / SSD 0.2 ms (15x) / Memory 0.01 ms (300x)
 
----
 
 ## Project Documentation
 
@@ -101,7 +95,6 @@ brew install python-tk
 | [Design Spec](docs/DESIGN.md) | Architecture, tech choices, module breakdown, data models, exception strategy |
 | [Task Breakdown](docs/TASKS.md) | Implementation steps, test tasks, optional enhancements |
 
----
 
 ## Project Structure
 
@@ -115,8 +108,7 @@ bote-estimator/
     └── TASKS.md          # Task Breakdown v1
 ```
 
----
 
 ## License
 
-MIT
+Apache-2.0 license
